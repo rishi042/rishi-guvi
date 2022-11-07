@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="js/login.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="loginFrm">
+        <form action="http://localhost/KT/php/login.php" method="post" id="loginForm" class="form">
+          <div class="til">
+          <h1 class="title">Login</h1></div>
+    
+            <label class="label">User Name</label>
+            <input type="text" class="input" id="uname" name="uname" placeholder="Username">
+
+            <label for="" class="label">Password</label>
+            <input type="password" class="input" id="pword" name="pword" placeholder="Password" >
+            
+              <input type="submit" class="submitBtn" name="submit"/> <br/>
+     
+             <p class="pa">
+            Dont have an account? <a href="register.html">Sign up Here</a>
+          </p>
+        </form>
+      </div>
+
+</body>
+
+</html>
